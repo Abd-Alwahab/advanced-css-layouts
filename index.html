@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <meta name="author" content="landing web page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Abd alwahab</title>
+  </head>
+  <body>
+    <header class="header">
+      <button class="open-nav">Open</button>
+      <div class="header__nav">
+        <div class="header__nav--content">
+          <div class="logo__container">
+            <h1 class="logo">Abd Alwahab</h1>
+          </div>
+
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="" class="nav__link">Home</a></li>
+              <li class="nav__item"><a href="" class="nav__link">About</a></li>
+              <li class="nav__item"><a href="" class="nav__link">Blog</a></li>
+              <li class="nav__item">
+                <a href="" class="nav__link">Courses</a>
+              </li>
+            </ul>
+
+            <div class="header__buttons">
+              <a href="" class="btn login__btn">Login</a>
+              <a href="" class="btn signup__btn">SignUp</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <div class="header__content">
+        <div class="header__left">
+          <div class="img__container--left">
+            <div class="overlay__img"></div>
+            <picture>
+              <source
+                media="(min-width: 900px)"
+                srcset="./images//header/left-header-img-2x.jpg"
+              />
+              <source
+                media="(min-width: 600px)"
+                srcset="./images//header/left-header-img.jpg"
+              />
+              <img
+                src="./images//header/left-header-img.jpg"
+                alt="left image"
+                class="header__img"
+              />
+            </picture>
+
+            <div class="left-video-img">
+              <img
+                src="./images/header/header-video-image.jpg"
+                alt="video img"
+                class="header__img overlay"
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="64"
+                height="64"
+                viewBox="0 0 226 226"
+                style=" fill:#000000;"
+                class="play-icon"
+              >
+                <g
+                  fill="none"
+                  fill-rule="nonzero"
+                  stroke="none"
+                  stroke-width="1"
+                  stroke-linecap="butt"
+                  stroke-linejoin="miter"
+                  stroke-miterlimit="10"
+                  stroke-dasharray=""
+                  stroke-dashoffset="0"
+                  font-family="none"
+                  font-weight="none"
+                  font-size="none"
+                  text-anchor="none"
+                  style="mix-blend-mode: normal"
+                >
+                  <path d="M0,226v-226h226v226z" fill="none"></path>
+                  <g>
+                    <path
+                      d="M222.51289,113c0,-60.47266 -49.04023,-109.51289 -109.51289,-109.51289c-60.47266,0 -109.51289,49.04023 -109.51289,109.51289c0,60.47266 49.04023,109.51289 109.51289,109.51289c60.47266,0 109.51289,-49.04023 109.51289,-109.51289z"
+                      fill="#e74c3c"
+                    ></path>
+                    <path
+                      d="M167.16055,107.35l-77.20195,-47.45117c-2.11875,-1.28008 -4.89961,-1.36836 -7.0625,-0.13242c-2.20703,1.23594 -3.57539,3.57539 -3.57539,6.09141v94.46094c0,2.51602 1.36836,4.85547 3.53125,6.09141c1.05938,0.57383 2.20703,0.88281 3.39883,0.88281c1.28008,0 2.51602,-0.35313 3.61953,-1.01523l77.20195,-47.05391c2.07461,-1.23594 3.35469,-3.53125 3.35469,-5.91484c0.08828,-2.42773 -1.1918,-4.72305 -3.26641,-5.95898z"
+                      fill="#ffffff"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__right">
+          <div class="img__container">
+            <picture>
+              <source
+                media="(min-width:900px)"
+                srcset="/images/header/header-right-one-2x.jpg"
+              />
+              <source
+                media="(min-width:600px)"
+                srcset="/images/header/header-right-one.jpg"
+              />
+
+              <img
+                src="./images/header/header-right-one.jpg"
+                alt="left image"
+                class="header__img overlay"
+              />
+            </picture>
+          </div>
+          <div class="img__container">
+            <picture>
+              <source
+                media="(min-width: 900px"
+                srcset="./images/header/header-right-two-2x.jpg"
+              />
+              <source
+                media="(min-width: 600px"
+                srcset="./images/header/header-right-two.jpg"
+              />
+              <img
+                src="./images/header/header-right-two.jpg"
+                alt="left image"
+                class="header__img overlay"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="about section-padding">
+        <div class="about__content">
+          <div class="about__header">
+            <h2 class="about__header--title">About us</h2>
+          </div>
+          <img src="./images/about/about-img.jpg" alt="" class="about__img" />
+          <div class="about__text">
+            <h3 class="about__title">
+              How We Got Started?
+            </h3>
+            <p class="about__desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
+              earum excepturi id maxime unde corporis, tempora illum laudantium,
+              alias aut culpa expedita perspiciatis quae animi inventore amet
+              quod cupiditate deleniti! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Saepe beatae praesentium laborum repellendus
+              facere adipisci dolores rerum ullam sunt minus nihil ipsum, illum
+              quia corrupti sapiente delectus id dolorem provident.
+            </p>
+
+            <p class="about__desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
+              earum excepturi id maxime unde corporis, tempora illum laudantium,
+              alias aut culpa expedita perspiciatis quae animi inventore amet
+              quod cupiditate deleniti! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Saepe beatae praesentium laborum repellendus
+              facere adipisci dolores rerum ullam sunt minus nihil ipsum, illum
+              quia corrupti sapiente delectus id dolorem provident.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="team">
+        <h2 class="section__title">Our Experts</h2>
+        <div class="team__content">
+          <div class="team__item">
+            <div class="team__overlay"></div>
+            <img
+              src="./images/team/team-1.jpg"
+              alt="team one"
+              class="team__img"
+            />
+            <h3 class="team__name">Marcos Sellner</h3>
+            <p class="team__job">Web Developer</p>
+            <div class="team__links">
+              <img
+                src="./images/team/github-icon.png"
+                alt=""
+                class="team__icon"
+              />
+              <img
+                src="./images/team/instagram-icon.png"
+                alt=""
+                class="team__icon"
+              />
+              <img
+                src="./images/team/linkedin-icon.png"
+                alt=""
+                class="team__icon"
+              />
+            </div>
+          </div>
+
+          <div class="team__item">
+            <div class="team__overlay"></div>
+            <img
+              src="./images/team/team-2.jpg"
+              alt="team one"
+              class="team__img"
+            />
+            <h3 class="team__name">Marcos Sellner</h3>
+            <p class="team__job">Web Developer</p>
+            <div class="team__links">
+              <img
+                src="./images/team/github-icon.png"
+                alt=""
+                class="team__icon"
+              />
+              <img
+                src="./images/team/instagram-icon.png"
+                alt=""
+                class="team__icon"
+              />
+              <img
+                src="./images/team/linkedin-icon.png"
+                alt=""
+                class="team__icon"
+              />
+            </div>
+          </div>
+
+          <div class="team__item">
+            <div class="team__overlay"></div>
+            <img
+              src="./images/team/team-3.jpg"
+              alt="team one"
+              class="team__img"
+            />
+            <h3 class="team__name">Marcos Sellner</h3>
+            <p class="team__job">Web Developer</p>
+            <div class="team__links">
+              <img
+                src="./images/team/github-icon.png"
+                alt=""
+                class="team__icon"
+              />
+              <img
+                src="./images/team/instagram-icon.png"
+                alt=""
+                class="team__icon"
+              />
+              <img
+                src="./images/team/linkedin-icon.png"
+                alt=""
+                class="team__icon"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="products section-padding">
+        <div class="products__content">
+          <div class="products__left">
+            <div class="products__left--top">
+              <div class="products__item--top">
+                <img
+                  src="./images/products/products-left-top-one.jpg"
+                  alt="products img"
+                  class="products__img overlay"
+                />
+                <div class="products__text">
+                  <h3 class="producst__title">NYC Travle</h3>
+                  <p class="producst__desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Distinctio id debitis quaerat nobis obcaecati earum
+                    consequatur delectus maxime qui, accusamus, vitae
+                    repudiandae. Dolores tempora error obcaecati dolor minima
+                    asperiores. Excepturi.
+                  </p>
+                </div>
+              </div>
+
+              <div class="products__item--top">
+                <img
+                  src="./images/products/products-left-two.jpg"
+                  alt="products img"
+                  class="products__img overlay"
+                />
+                <div class="products__text">
+                  <h3 class="producst__title">NYC Travle</h3>
+                  <p class="producst__desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Distinctio id debitis quaerat nobis obcaecati earum
+                    consequatur delectus maxime qui, accusamus, vitae
+                    repudiandae. Dolores tempora error obcaecati dolor minima
+                    asperiores. Excepturi.
+                  </p>
+                </div>
+              </div>
+
+              <div class="products__item--top">
+                <img
+                  src="./images/products/products-left-three.jpg"
+                  alt="products img"
+                  class="products__img overlay"
+                />
+                <div class="products__text">
+                  <h3 class="producst__title">NYC Travle</h3>
+                  <p class="producst__desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Distinctio id debitis quaerat nobis obcaecati earum
+                    consequatur delectus maxime qui, accusamus, vitae
+                    repudiandae. Dolores tempora error obcaecati dolor minima
+                    asperiores. Excepturi.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="products__left--bottom">
+              <div class="products__left--bottom--item">
+                <img
+                  src="./images/products/products-left-bottom.jpg"
+                  alt="products img"
+                  class="products__img overlay"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="products__right">
+            <div class="products__item--right">
+              <img
+                src="./images/products/products-right-one.jpg"
+                alt="products img"
+                class="products__img overlay"
+              />
+              <div class="products__text">
+                <h3 class="producst__title">NYC Travle</h3>
+                <p class="producst__desc">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Distinctio id debitis quaerat nobis obcaecati earum
+                  consequatur delectus maxime qui, accusamus, vitae repudiandae.
+                  Dolores tempora error obcaecati dolor minima asperiores.
+                  Excepturi.
+                </p>
+              </div>
+            </div>
+
+            <div class="products__item--right">
+              <img
+                src="./images/products/products-right-two.jpg"
+                alt="products img"
+                class="products__img overlay"
+              />
+              <div class="products__text">
+                <h3 class="producst__title">NYC Travle</h3>
+                <p class="producst__desc">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Distinctio id debitis quaerat nobis obcaecati earum
+                  consequatur delectus maxime qui, accusamus, vitae repudiandae.
+                  Dolores tempora error obcaecati dolor minima asperiores.
+                  Excepturi.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects">
+        <div class="projects__content">
+          <div class="projects__item">
+            <div class="projects__item--title">
+              <h1>Build Something New</h1>
+            </div>
+            <div class="projects__item--content">
+              <div class="projects__item__overlay"></div>
+              <img
+                src="./images/projects/projects-one.jpg"
+                alt="projects one"
+                class="projects__img"
+              />
+              <div class="projects__item__text">
+                <ul class="projects__list">
+                  <li class="projects__list__item">
+                    Doign Some Thing New and ising New Cities
+                  </li>
+                  <li class="projects__list__item">
+                    Vising New Cities Doign Some Thing New
+                  </li>
+                  <li class="projects__list__item">
+                    Having an Amazing Time and Get New Friends
+                  </li>
+                  <li class="projects__list__item">
+                    Get New Friends Having an Amazing Time
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__item">
+            <div class="projects__item--content">
+              <div class="projects__item__overlay"></div>
+              <img
+                src="./images/projects/projects-two.jpg"
+                alt="projects one"
+                class="projects__img"
+              />
+              <div class="projects__item__text">
+                <ul class="projects__list">
+                  <li class="projects__list__item">
+                    Doign Some Thing New and ising New Cities
+                  </li>
+                  <li class="projects__list__item">
+                    Vising New Cities Doign Some Thing New
+                  </li>
+                  <li class="projects__list__item">
+                    Having an Amazing Time and Get New Friends
+                  </li>
+                  <li class="projects__list__item">
+                    Get New Friends Having an Amazing Time
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="projects__item--title">
+              <h1>Build Something New</h1>
+            </div>
+          </div>
+
+          <div class="projects__item">
+            <div class="projects__item--title">
+              <h1>Build Something New</h1>
+            </div>
+            <div class="projects__item--content">
+              <div class="projects__item__overlay"></div>
+              <img
+                src="./images/projects/projects-one.jpg"
+                alt="projects one"
+                class="projects__img"
+              />
+              <div class="projects__item__text">
+                <ul class="projects__list">
+                  <li class="projects__list__item">
+                    Doign Some Thing New and ising New Cities
+                  </li>
+                  <li class="projects__list__item">
+                    Vising New Cities Doign Some Thing New
+                  </li>
+                  <li class="projects__list__item">
+                    Having an Amazing Time and Get New Friends
+                  </li>
+                  <li class="projects__list__item">
+                    Get New Friends Having an Amazing Time
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <p class="footer__text">Design With 🥰😍😍😘🥰 By Abd Alwahab</p>
+      </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
