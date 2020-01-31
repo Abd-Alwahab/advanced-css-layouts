@@ -13,3 +13,6 @@ openNav.addEventListener("click", () => {
     openNav.textContent = "open";
   }
 });
+
+const observer = lozad();
+observer.observe();
